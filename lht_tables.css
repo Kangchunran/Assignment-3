@@ -6,8 +6,8 @@
    Case Problem 2
 
    Calendar Style Sheet
-   Author: 
-   Date:   
+   Author: Chunran Kang
+   Date:   March 27 2023
 
    Filename:   lht_tables.css
 
@@ -17,7 +17,22 @@
    Mobile Styles: 0px to 640px 
    ===============================
 */
+@media only screen and (max-width: 640px) {
+   table,tbody,tr,td,th,caption{
+      display:block;    
+   }
 
+   thead,h1{
+      display: none;
+   }
+   caption{
+      color:white;
+      background-color: #333333;
+      font-size: 1.5em;
+      line-height: 2em;
+   }
+
+ }
 
 
 
@@ -25,3 +40,6 @@
    Tablet and Desktop Styles: greater than 640px
    =============================================
 */
+@media only screen and (min-width: 641px) {
+
+ }
