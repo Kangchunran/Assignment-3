@@ -79,7 +79,8 @@
    }
 
    td{
-      background: ;
+      background-color: rgba(171, 171, 171, 0.6);
+      color: rgb(11,12,145);
    }
 
  }
